@@ -1,0 +1,15 @@
+/Makefile/1.2/Mon Aug 24 21:27:52 2009//
+/build_lex/1.2/Sun Jan  3 21:05:08 2010//
+/cmu_pashto_lex.c/1.3/Mon Sep 21 12:36:29 2009//
+/cmu_pashto_lex.h/1.1/Mon Aug 24 21:24:04 2009//
+/cmu_pashto_lex_data.c/1.1/Mon Aug 24 21:24:04 2009//
+/cmu_pashto_lex_data_raw.c/1.6/Tue Jan 19 18:40:59 2010//
+/cmu_pashto_lex_entries.c/1.6/Tue Jan 19 18:40:59 2010//
+/cmu_pashto_lex_entries_huff_table.c/1.6/Tue Jan 19 18:40:59 2010//
+/cmu_pashto_lex_num_bytes.c/1.6/Tue Jan 19 18:40:59 2010//
+/cmu_pashto_lex_phones_huff_table.c/1.6/Tue Jan 19 18:40:59 2010//
+/cmu_pashto_lts_model.c/1.1/Mon Aug 24 21:24:04 2009//
+/cmu_pashto_lts_model.h/1.1/Mon Aug 24 21:24:04 2009//
+/cmu_pashto_lts_rules.c/1.1/Mon Aug 24 21:24:04 2009//
+/cmu_pashto_postlex.c/1.1/Mon Aug 24 21:24:04 2009//
+D

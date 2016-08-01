@@ -1,0 +1,40 @@
+
+To build a indic flite voice
+
+$FESTVOX/src/clustergen/setup_cg cmu indic xxx
+copy in the wav and txt.done.data
+
+Edit festvox/indic_lexicon.scm and change the lex:language
+
+$FESTVOX/src/clustergen/build_cg_rfs_voice
+Wait a couple of days
+
+$FLITEDIR/tools/setup_flite
+./bin/build_flite
+
+cd flite
+
+There should now have been done automatically by setup_flite
+
+in VOICE.c add language variant
+
+    flite_feat_set_string(vox->features,"variant","hin");
+
+and init for cmulex
+
+    /* To get English front end you need it initialized (now *and* at */
+    /* dynamic load time) */
+    flite_feat_set_string(vox->features,"secondary_langs","eng");
+    cmu_lex_init(); /* English lexicon for pronunciations of English words */
+    usenglish_init(vox);
+
+Edit Makefile
+
+add 
+-lflite_usenglish -lflite_cmulex
+
+to link command
+
+make
+make voicedump
+cp VOICE.flitevox to you app
