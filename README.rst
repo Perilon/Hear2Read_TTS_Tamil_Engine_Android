@@ -60,8 +60,8 @@ Requirements
 ------------
 In order to build this application, you need the following:
 
-- The source code for Flite, a version of which is included in this distribution as "flite,"
-that contains updates for Tamil and other Indic languages that are not yet part of the
+- The source code for Flite, which is included in this distribution in the directory "flite".
+This version of Flite contains updates for Tamil and other Indic languages that are not yet part of the
 standard Flite distribution.
 - Android NDK Release 10d
 - Android SDK Release 24.0.2
@@ -75,8 +75,10 @@ The NDK can be found, as of August 1, 2016, at the following links:
 - Linux 32-bit (x86) : http://dl.google.com/android/ndk/android-ndk-r10d-linux-x86.bin
 - Linux 64-bit (x86) : http://dl.google.com/android/ndk/android-ndk-r10d-linux-x86_64.bin
 
+(Change permissions to +x if necessary.)
+
 The SDK can be most easily installed through downloading Android Studio and using its
-built-in toolkit:
+built-in SDK Manager toolkit:
 - https://developer.android.com/studio/index.html
 
 Application Build Steps
