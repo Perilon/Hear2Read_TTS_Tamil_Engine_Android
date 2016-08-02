@@ -19,6 +19,10 @@ library, thereby allowing other applications to make use of Flite for
 Tamil language synthesis.  Specifically, this app has been tested with
 @Voice Aloud Reader, Voice Dream Reader, GoRead, and Talkback on Android 5.1 (Lollipop).
 
+This application has been developed with support from Hear2Read and
+is based on the "Flite TTS Engine for Android" app developed by
+Alok Parlikar available at https://github.com/happyalu/Flite-TTS-Engine-for-Android.
+
 For information about Hear2Read, visit http://www.hear2read.org/.
 
 Installing this Application
@@ -54,7 +58,7 @@ On Android 6.1:
 Building this App from Source
 =============================
 
-Instructions here are for development on Linux.
+Instructions here have been tested on Linux and are currently being tested for Mac OS X.
 
 Requirements
 ------------
