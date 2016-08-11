@@ -107,6 +107,11 @@ Application Build Steps
     ./configure --with-langvox=android --target=mips-android
     make
 
+*Build shared libraries* ::
+
+    cd $FLITE_APP_DIR
+    $ANDROID_NDK/ndk-build
+
 *Build installable application package (debug mode)* ::
 
     cd $FLITE_APP_DIR
