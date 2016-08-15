@@ -2,7 +2,8 @@
 <resources>
     <string name="app_name">Hear2Read Tamil</string>
     <string name="eng_sample">This is a sample English sentence for the Hear2Read synthesizer.</string>
-    <string name="indic_sample">நவீன ஓவியங்கள் பற்றி உங்கள் கருத்து என்ன?</string>
+    <string name="indic_sample">எழுதிய தமிழை உரக்க பேசுவதற்கு இது ஒரு உதாரணம்.</string>
+    <!--<string name="indic_sample">இதில் எழுதி உள்ளதை பேச்சாக மாற்றும் உதாரணம்.</string>-->
     <string name="flite_manager">Hear2Read</string>
     <string name="flite_voice_manager">Hear2Read TTS Voice Management</string>
     <string name="voice_list_update">Download Voice List</string>

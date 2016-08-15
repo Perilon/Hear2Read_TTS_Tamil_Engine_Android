@@ -78,7 +78,7 @@ public class TTSDemo extends ListActivity implements OnClickListener, OnKeyListe
 	private TextToSpeech mTts;
 	private int mSelectedVoice;
 
-	@TargetApi(14)
+	@TargetApi(17)
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);

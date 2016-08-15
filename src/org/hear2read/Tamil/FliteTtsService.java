@@ -52,7 +52,7 @@ import android.util.Log;
  *
  */
 
-@TargetApi(14)
+@TargetApi(17)
 public class FliteTtsService extends TextToSpeechService {
 	private final static String LOG_TAG = "Flite_Java_" + FliteTtsService.class.getSimpleName();
 	private NativeFliteTTS mEngine;

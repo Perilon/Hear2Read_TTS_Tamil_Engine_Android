@@ -289,8 +289,10 @@ android_tts_result_t init(void* engine, android_tts_synth_cb_t synthDoneCBPtr, c
     }
 
     // Now update the actual duration stretch as a percentage of the default value.
+    // AEW: default value for multiplier was 100; have changed the value such that the
+    // new rate is 90% of the original (default) rate.
     feat_set_float(flite_voice->features, "duration_stretch",
-    		   feat_float(flite_voice->features, "orig_duration_stretch") * 100.0 / rate);
+    		   feat_float(flite_voice->features, "orig_duration_stretch") * 111.11 / rate);
     return ANDROID_TTS_SUCCESS;
   }
 
